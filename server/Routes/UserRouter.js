@@ -11,6 +11,6 @@ userRouter.post("/sendemail", sendEmail);
 userRouter.post("/checkotp/:userId", checkOtp);
 userRouter.put("/changepassword", changePassword);
 userRouter.post("/logout", isAuthenticatedUser, logout);
-userRouter.post("/sendmessage/:userId", isAuthenticatedUser, sendMessage); // Add the sendMessage route here
+userRouter.post("/sendmessage/:userId", isAuthenticatedUser, sendMessage); 
 
 export default userRouter;
