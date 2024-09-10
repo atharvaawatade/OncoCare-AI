@@ -18,12 +18,12 @@ OncoCare is a ChatBOT and Prompt Generator designed to streamline the management
 
 ## Tech Stack
 
-- **Programming Language**: React JS, MongoDB, Python, Express js
+- **Programming Language**: Python, React JS, MongoDB, Python, Express js
 - **NLP/AI**: OpenAI API
 - **Data Management**: Mongo DB
 
 
 ### Prerequisites
-
+- Python
 - Node.js
 - OpenAI API key
